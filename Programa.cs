@@ -3,7 +3,7 @@ class Programa
     public static void Main (){
         cofre();
     }
-    public static Cofre(){
+    public static Cofrer(){
 
     }
 }
