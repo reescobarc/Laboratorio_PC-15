@@ -29,7 +29,7 @@ class ProyectoLabPC
         //Tabla de datos de los personajes
         public Personajes(string magoDatos, string caballeroDatos, string arqueraDatos)
         {
-
+            
         }
         public SeleccionPersonaje(string mago, string caballero, string arquera)
         {
