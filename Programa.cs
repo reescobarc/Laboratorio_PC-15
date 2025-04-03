@@ -5,10 +5,12 @@ class ProyectoLabPC
     {
         public static void Main(string[] args)
         {
-            //aqui se hace el programa 
+            //aqui se hace el programa
+            Console.WriteLine("¡Bienvenido, valiente viajero! Ante ti se extiende un mundo lleno de misterios y desafíos. Antes de comenzar tu gran aventura, necesito saber más sobre ti. ¿Cuál es tu nombre, héroe?");
+            NombreUsuario();
         }
-        //datos para el programa 
-        //datos de vida de los personajes 
+        //Datos base para el programa 
+        //Datos de vida de los personajes 
         public PersonajesVida (int magoVida, int caballeroVida, int arqueraVida)
         {
             magoVida = 100; 
@@ -32,6 +34,11 @@ class ProyectoLabPC
         public SeleccionPersonaje(string mago, string caballero, string arquera)
         {
             
+        }
+        public NombreUsuario(string userName)
+        {
+            string userName = Console.ReadLine();
+            Console.WriteLine($"Hola {userName}, comencemos el juego!")
         }
     }
 }
